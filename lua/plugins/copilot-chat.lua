@@ -47,7 +47,7 @@ return {
       { "nvim-lua/plenary.nvim" },
     },
     opts = {
-      question_header = "## User ",
+      question_header = "## MaxGalindo150 ",
       answer_header = "## Copilot ",
       error_header = "## Error ",
       prompts = prompts,

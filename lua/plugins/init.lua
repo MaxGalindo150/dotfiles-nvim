@@ -9,6 +9,7 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      require("nvchad.configs.lspconfig")
       require "configs.lspconfig"
     end,
   },
@@ -24,6 +25,7 @@ return {
     -- or run <leader>ch to see copilot mapping section
     end
   },
+}
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
@@ -31,7 +33,8 @@ return {
   -- 		ensure_installed = {
   -- 			"vim", "lua", "vimdoc",
   --      "html", "css"
-  -- 		},
+
   -- 	},
   -- },
-}
+
+
